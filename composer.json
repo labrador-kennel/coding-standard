@@ -1,0 +1,10 @@
+{
+    "name": "cspray/labrador-coding-standard",
+    "description": "A PHP_CodeSniffer ruleset for the coding style in all Labrador packages",
+    "keywords": ["labrador", "php", "coding-style"],
+    "license": "MIT",
+    "require": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "bin": ["bin/composer/labrador-cs", "bin/composer/labrador-cbf"]
+}

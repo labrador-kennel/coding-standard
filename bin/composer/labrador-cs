@@ -1,0 +1,5 @@
+#!/bin/bash
+dir=`pwd`
+phpcs="$dir/vendor/bin/phpcs"
+standard="$dir/vendor/cspray/labrador-coding-standard/ruleset.xml"
+php $phpcs --standard=$standard "$@"

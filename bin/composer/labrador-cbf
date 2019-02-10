@@ -1,0 +1,5 @@
+#!/bin/bash
+dir=`pwd`
+phpcbf="$dir/vendor/bin/phpcbf"
+standard="$dir/vendor/cspray/labrador-coding-standard/ruleset.xml"
+php $phpcbf --standard=$standard "$@"
